@@ -1,0 +1,65 @@
+html body {
+    width: 100%;
+    margin: 0;
+    background-color: #141414;
+}
+.navigation {
+    float: right;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.navigation .title img {
+    margin-left: 5vw;
+    width: 15%;
+}
+.navigation .title {
+    margin-right: 10vw;
+}
+.navigation .title a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40 30;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover {
+    color: #fd8b33;
+}
+header {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 7%;
+}
+.colloums1 {
+    padding-top: 5%;
+    padding-left: 14%;
+}
+.card {
+    background-color: #fd8b33;
+}
+.colloums2 {
+    padding-top: 5%;
+    padding-left: 14%;
+    padding-bottom: 20%;
+}footer {
+    padding-top: 2% ;
+    color: white;
+    background-color: #141414;
+  }
+  footer p {
+    padding: 5vw;
+    width: 30%;
+  }
+  footer hr {
+    width: 80%;
+    margin-left: 10%;
+  }
+  footer h3 {
+    text-align: center;
+    padding: 10px;
+  }

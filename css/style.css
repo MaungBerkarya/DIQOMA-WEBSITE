@@ -1,0 +1,179 @@
+@font-face {
+  font-family: azonix;
+  src: url(../font/Azonix.otf);
+}
+@font-face {
+  font-family: cool;
+  src: url(../font/coolvetica\ rg.ttf);
+}
+html body {
+    width: 100%;
+    margin: 0;
+    background-color: #141414;
+    font-family: cool;
+}
+.navigation {
+    float: right;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.navigation .title img {
+    margin-left: 5vw;
+    width: 15%;
+}
+.navigation .title {
+    margin-right: 10vw;
+}
+.navigation .title a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40 30;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover {
+    color: #fd8b33;
+}
+
+.header {
+  background-image: url(../img/head.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header .card {
+  max-width: 40vw;
+  color: white;
+  padding: 18% 10%;
+}
+.header .card h1 {
+  font-size: 60px;
+  padding: 0%;
+  font-family: azonix;
+}
+.btn {
+  border: none;
+  background-color: #333333;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.white {
+  color: white;
+}
+.btn:hover {
+  background: white;
+  color: #333333;
+}
+
+.cards {
+  background-color: #DE6D17;
+  margin: 70px 0 0px 0;
+  width: 100%;
+  height: 80%;
+}
+
+.island {
+  float: left;
+  margin: 4% 0 0 3.5%;
+  border: #141414;
+  border-width: 3px;
+  border-style: solid;
+  width: 15vw;
+  text-align: center;
+}
+.island img {
+  height: 210px;
+}
+.cards .title {
+  text-align: center;
+  padding: 2% 0 0 10%;
+  width: 80%;
+  color: white;
+  font-size: 18px;
+}
+
+.island button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.9;
+}
+.gallery {
+  background-image: url(../img/gallery.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+.content {
+  width: 50%;
+  padding: 8%;
+}
+
+.gallery .content {
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.glry {
+  border: white;
+  width: 15vw;
+  opacity: 100%;
+  height: 6vw;
+  margin: 11% 15% 0 0;
+  color: black;
+  float: right
+}
+.glry p {
+  opacity: none;
+}
+.contact {
+  background-color: #DE6D17;
+  text-align: center;
+  color: white;
+}
+.contact h1 {
+  padding-top: 30%;
+}
+.contact i {
+  padding: 4% 0 7% 3%;
+}
+footer {
+  padding-top: 2% ;
+  color: white;
+  background-color: #141414;
+}
+footer p {
+  padding: 5vw;
+  width: 30%;
+}
+footer hr {
+  width: 80%;
+  margin-left: 10%;
+}
+footer h3 {
+  text-align: center;
+  padding: 10px;
+}

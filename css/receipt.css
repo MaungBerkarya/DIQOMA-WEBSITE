@@ -1,0 +1,88 @@
+html body {
+    width: 100%;
+    margin: 0;
+    background-color: #fd8b33;
+}
+.navigation {
+    float: right;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.navigation .title img {
+    margin-left: 5vw;
+    width: 13vw;
+}
+.navigation .title {
+    margin-right: 10vw;
+}
+.navigation .title a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40 30;
+    text-decoration: none;
+    font-size: 17px;
+}
+header {
+    width: 100%;
+    background-color: #141414;
+    color: white;
+    text-align: center;
+}
+header .cont {
+    width: 50%;
+    padding: 10% 0 5% 25%;
+}
+.card {
+    background-color: gray;
+}
+.icon {
+    padding-left: 35%;
+}
+.icon img {
+    width: 12%;
+    padding: 12px;
+    border-radius: 50%;
+}
+.main {
+    color: white;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.main img {
+    width: 20vw;
+    padding: 5%;
+    border-radius: 50%;
+}
+.main h1 {
+    padding-top: 12%;
+    font-size: 50px;
+    font-weight: bold;
+}
+.main h3 {
+    width: 40%;
+    margin-left: 30%;
+}
+.main ul {
+    width: 40%;
+    margin-left: 30%;
+}
+footer {
+    padding-top: 2% ;
+    color: white;
+    background-color: #141414;
+  }
+  footer p {
+    padding: 5vw;
+    width: 30%;
+  }
+  footer hr {
+    width: 80%;
+    margin-left: 10%;
+  }
+  footer h3 {
+    text-align: center;
+    padding: 10px;
+  }
